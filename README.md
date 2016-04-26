@@ -25,6 +25,15 @@ nucleotides are different from their equivalent in the other string.
 
 The Hamming distance between these two DNA strands is 7.
 
+# Examples
+
+```javascript
+hamming.compute('GAGCCTACTAACGGGAT', 'CATCGTAATGACGGCCT') => 7
+hamming.compute('GGACG', 'GGTCG') => 1
+hamming.compute('GATACA', 'GCATAA') => 4
+hamming.compute('GGACGGATTCTG', 'AGGACGGATTCT') => 9
+```
+
 # Implementation notes
 
 The Hamming distance is only defined for sequences of equal length. This means
