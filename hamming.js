@@ -26,3 +26,4 @@ Hamming.prototype.compute = function(strand1, strand2){
   return mutation_count;
 
 module.exports = Hamming;
+}
